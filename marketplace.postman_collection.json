@@ -1,0 +1,299 @@
+{
+	"info": {
+		"_postman_id": "92bab012-2c4b-403d-bc10-e82fec644c18",
+		"name": "marketplace",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "recommandation",
+			"item": [
+				{
+					"name": "internal-recommand-merge",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 20a2fc002dc5973626148e8a55071e29d97223be",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "par_1",
+									"value": "par_1",
+									"type": "text"
+								},
+								{
+									"key": "par_2",
+									"value": "par_2",
+									"type": "text"
+								},
+								{
+									"key": "par_3",
+									"value": "par_3",
+									"type": "text"
+								},
+								{
+									"key": "par_4",
+									"value": "par_4",
+									"type": "text"
+								},
+								{
+									"key": "par_5",
+									"value": "par_5",
+									"type": "text"
+								},
+								{
+									"key": "par_6",
+									"value": "par_6",
+									"type": "text"
+								},
+								{
+									"key": "par_7",
+									"value": "par_7",
+									"type": "text"
+								},
+								{
+									"key": "par_8",
+									"value": "par_8",
+									"type": "text"
+								},
+								{
+									"key": "par_9",
+									"value": "par_9",
+									"type": "text"
+								},
+								{
+									"key": "par_10",
+									"value": "par_10",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/core/internal-recommand/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"core",
+								"internal-recommand",
+								""
+							],
+							"query": [
+								{
+									"key": "par_1",
+									"value": "paramter1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "internal-recommand",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "par_1",
+									"value": "par_1",
+									"type": "text"
+								},
+								{
+									"key": "par_2",
+									"value": "par_2",
+									"type": "text"
+								},
+								{
+									"key": "par_3",
+									"value": "par_3",
+									"type": "text"
+								},
+								{
+									"key": "par_4",
+									"value": "par_4",
+									"type": "text"
+								},
+								{
+									"key": "par_5",
+									"value": "par_5",
+									"type": "text"
+								},
+								{
+									"key": "par_6",
+									"value": "par_6",
+									"type": "text"
+								},
+								{
+									"key": "par_7",
+									"value": "par_7",
+									"type": "text"
+								},
+								{
+									"key": "par_8",
+									"value": "par_8",
+									"type": "text"
+								},
+								{
+									"key": "par_9",
+									"value": "par_9",
+									"type": "text"
+								},
+								{
+									"key": "par_10",
+									"value": "par_10",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/internal/recommand/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"internal",
+								"recommand",
+								""
+							],
+							"query": [
+								{
+									"key": "par_1",
+									"value": "paramter1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "external-recommand",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 20a2fc002dc5973626148e8a55071e29d97223be",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "par_1",
+									"value": "par_1",
+									"type": "default"
+								},
+								{
+									"key": "par_2",
+									"value": "par_2",
+									"type": "default"
+								},
+								{
+									"key": "par_3",
+									"value": "par_3",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/core/external-recommand/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"core",
+								"external-recommand",
+								""
+							],
+							"query": [
+								{
+									"key": "par_1",
+									"value": "paramter1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "get_token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "milan",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "milan",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api-token-auth/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api-token-auth",
+						""
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
